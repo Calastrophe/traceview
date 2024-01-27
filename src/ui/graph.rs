@@ -47,17 +47,12 @@ impl Graph {
 
         let aspect_ratio = texture.aspect_ratio();
 
-        let image = PlotImage::new(
-            texture,
-            PlotPoint::new(0.0, 0.0),
-            5.0 * vec2(aspect_ratio, 1.0),
-        );
+        let image = PlotImage::new(texture, PlotPoint::new(0.0, 0.0), vec2(aspect_ratio, 1.0));
 
         let plot = Plot::new("graph view")
             .legend(Legend::default())
             .show_x(false)
             .show_y(false)
-            .data_aspect(1.0)
             .show_grid(false);
 
         plot.show(ui, |plot_ui| plot_ui.image(image.name("graph")))

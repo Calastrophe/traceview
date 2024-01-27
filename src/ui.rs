@@ -6,7 +6,7 @@ mod graph;
 #[derive(Default)]
 pub struct TraceView {
     fd: FileDialog,
-    graph: Graph,
+    graph: Option<Graph>,
 }
 
 impl TraceView {
@@ -19,6 +19,10 @@ impl TraceView {
 
 impl eframe::App for TraceView {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
+        if let Some(image) = self.fd.get() {
+            self.graph = Some(Graph::new(ctx, image));
+        }
+
         egui::TopBottomPanel::top("top").show(ctx, |ui| {
             egui::menu::bar(ui, |ui| {
                 ui.menu_button("File", |ui| {
@@ -34,6 +38,10 @@ impl eframe::App for TraceView {
             });
         });
 
-        egui::CentralPanel::default().show(ctx, |ui| self.graph.ui(ui));
+        egui::CentralPanel::default().show(ctx, |ui| {
+            if let Some(graph) = &mut self.graph {
+                graph.ui(ui);
+            }
+        });
     }
 }
