@@ -1,44 +1,40 @@
+use self::{cfg::ControlFlowGraph, register::Registers};
 use serde::Deserialize;
+use std::collections::HashMap;
 use thiserror::Error;
 
 mod block;
 mod cfg;
 mod function;
+mod register;
+
+pub struct Tracer {
+    step: usize,
+    registers: Registers,
+    memory: HashMap<u64, u64>,
+    instructions: Vec<Instruction>,
+}
 
 impl Tracer {
-    fn new(trace: TraceFile) -> Tracer {
-        let mut registers = Vec::new();
+    pub fn new(trace: TraceFile) -> Tracer {
+        let registers = Registers::new(&trace.info.registers);
+        let memory: HashMap<u64, u64> = HashMap::from_iter(trace.info.memory.into_iter());
 
-        for register in trace.info.registers {
-            registers.push(Register::new(register.name, register.size as usize))
-        }
+        let first = trace.instructions.first().unwrap();
+        let mut graph = ControlFlowGraph::new(first.addr);
+        graph.construct(&trace.instructions).unwrap();
 
         Self {
             step: 0,
             registers,
+            memory,
             instructions: trace.instructions,
         }
     }
-}
 
-pub struct Register {
-    name: String,
-    value: Box<[u8]>,
-}
+    pub fn step_forward(&mut self) {}
 
-impl Register {
-    pub fn new(name: String, value: usize) -> Register {
-        Self {
-            name,
-            value: Vec::with_capacity(value).into_boxed_slice(),
-        }
-    }
-}
-
-pub struct Tracer {
-    step: usize,
-    registers: Vec<Register>,
-    instructions: Vec<Instruction>,
+    pub fn step_backward(&mut self) {}
 }
 
 #[derive(Deserialize)]
@@ -49,7 +45,6 @@ pub struct TraceFile {
 
 #[derive(Deserialize)]
 pub struct ArchInfo {
-    mode: u8,
     registers: Vec<RegisterInfo>,
     memory: Vec<(u64, u64)>,
 }
@@ -79,7 +74,7 @@ pub enum Event {
     MemWrite(u64, u64),
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Clone, Copy)]
 pub enum JumpKind {
     Call,
     Return,

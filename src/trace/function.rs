@@ -1,9 +1,6 @@
 use super::{block::BasicBlock, Error, Instruction, JumpKind};
 use std::collections::HashMap;
 
-// NOTE: Explore `ensure_exists` being a result of a bad implementation, determine if there is a
-// way to rely just on the
-
 pub struct Function {
     /// The name of the function which follows a `sub_[address]` format with a given starting
     /// address.
@@ -31,45 +28,40 @@ impl Function {
         }
     }
 
-    /// Adds a given edge from source block to destination block.
-    pub fn add_edge(&mut self, src: u64, dest: u64) -> Result<(), Error> {
-        Ok(self
-            .blocks
-            .get_mut(&src)
-            .ok_or(Error::MissingBlock)?
-            .add_edge(dest))
-    }
-
-    pub fn add_instruction(
+    pub fn execute(
         &mut self,
-        program_counter: u64,
-        instruction: &Instruction,
+        insn: &Instruction,
+        next_insn: Option<&&Instruction>,
     ) -> Result<(), Error> {
         let current_block = self
             .blocks
             .get_mut(&self.current_block)
             .ok_or(Error::MissingCurrentBlock)?;
 
-        // Ensure we aren't somehow putting instructions before the start of the block
-        if program_counter < current_block.start {
-            return Err(Error::InvalidCounter);
+        if current_block.block.contains_key(&insn.addr) {
+            current_block.execute(insn);
         }
 
-        current_block
-            .block
-            .entry(program_counter)
-            .and_modify(|v| *v = instruction.insn.clone())
-            .or_insert(instruction.insn.clone());
-
-        let jump_type = &instruction.kind;
+        let jump_type = &insn.kind;
 
         if let Some(jump_type) = jump_type {
+            // HANDLE ERROR
+            let next_insn = next_insn.unwrap();
+
             match jump_type {
                 JumpKind::Conditional => {
-                    todo!()
+                    current_block.add_edge(next_insn.addr, *jump_type);
+
+                    self.blocks
+                        .entry(next_insn.addr)
+                        .or_insert(BasicBlock::new(next_insn.addr));
                 }
                 JumpKind::Unconditional => {
-                    todo!()
+                    current_block.add_edge(next_insn.addr, *jump_type);
+
+                    self.blocks
+                        .entry(next_insn.addr)
+                        .or_insert(BasicBlock::new(next_insn.addr));
                 }
                 _ => {}
             }

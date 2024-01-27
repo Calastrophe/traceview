@@ -53,6 +53,7 @@ impl Graph {
             .legend(Legend::default())
             .show_x(false)
             .show_y(false)
+            .data_aspect(0.5)
             .show_grid(false);
 
         plot.show(ui, |plot_ui| plot_ui.image(image.name("graph")))

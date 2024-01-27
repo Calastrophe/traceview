@@ -1,10 +1,13 @@
+use super::{Instruction, JumpKind};
 use std::collections::HashMap;
 
 pub struct BasicBlock {
     pub(crate) start: u64,
     pub(crate) end: u64,
     pub(crate) block: HashMap<u64, String>,
-    edges: Vec<u64>,
+    // The first item indicates if it is Unconditional or Conditional, the second is the address,
+    // the third is how many traverses
+    edges: Vec<(JumpKind, u64, u64)>,
 }
 
 impl BasicBlock {
@@ -19,12 +22,14 @@ impl BasicBlock {
     }
 
     /// Appends an instruction to the basic block and sets the end address to the one given.
-    pub fn append(&mut self, address: u64, instruction: String) {
-        let _ = self.block.insert(address, instruction);
+    pub fn execute(&mut self, insn: &Instruction) {
+        let _ = self.block.insert(insn.addr, insn.insn.clone());
 
-        // TODO: An elegant solution to actually determining the correct end.
-        // Right now, this is incorrect.
-        self.end = address;
+        if let Some(size) = insn.size {
+            self.end += insn.addr + size as u64
+        } else {
+            self.end = insn.addr
+        }
     }
 
     /// Checks if the given address is **currently** in the range of this basic block.
@@ -38,19 +43,21 @@ impl BasicBlock {
     }
 
     /// Returns an iterator of the edges/count pairs inside the underlying Vector.
-    pub fn edges(&self) -> impl Iterator<Item = &u64> {
+    pub fn edges(&self) -> impl Iterator<Item = &(JumpKind, u64, u64)> {
         self.edges.iter()
     }
 
     /// Identifies if a given edge already exists for the block.
     pub fn contains_edge(&self, edge: u64) -> bool {
-        self.edges.contains(&edge)
+        self.edges.iter().any(|(_, e, _)| *e == edge)
     }
 
     /// Adds a new edge if it cannot find it, otherwise increments the edge counter depending on if it was traversed or not.
-    pub fn add_edge(&mut self, edge: u64) {
-        if !self.edges.contains(&edge) {
-            self.edges.push(edge);
+    pub fn add_edge(&mut self, edge: u64, kind: JumpKind) {
+        if let Some((_, _, count)) = self.edges.iter_mut().find(|(_, e, _)| *e == edge) {
+            *count += 1;
+        } else {
+            self.edges.push((kind, edge, 0));
         }
     }
 }

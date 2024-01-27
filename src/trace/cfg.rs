@@ -10,45 +10,55 @@ pub struct ControlFlowGraph {
 impl ControlFlowGraph {
     pub fn new(entry_point: u64) -> Self {
         ControlFlowGraph {
-            functions: HashMap::new(),
+            functions: HashMap::from([(entry_point, Function::new(entry_point))]),
             current_function: entry_point,
             call_stack: Vec::new(),
         }
     }
 
-    pub fn execute(
-        &mut self,
-        program_counter: u64,
-        instruction: &Instruction,
-    ) -> Result<(), Error> {
-        let current_function = self
-            .functions
-            .get_mut(&self.current_function)
-            .ok_or(Error::MissingCurrentFunction)?;
+    pub fn construct(&mut self, insns: &[Instruction]) -> Result<(), Error> {
+        let mut iter = insns.iter().peekable();
 
-        let jump_type = &instruction.kind;
+        while let Some(insn) = iter.next() {
+            let current_function = self
+                .functions
+                .get_mut(&self.current_function)
+                .ok_or(Error::MissingCurrentFunction)?;
 
-        current_function.add_instruction(program_counter, instruction)?;
+            let jump_type = &insn.kind;
 
-        if let Some(jump_type) = jump_type {
-            match jump_type {
-                JumpKind::Call => {
-                    todo!()
+            let next_insn = iter.peek();
+
+            current_function.execute(insn, next_insn)?;
+
+            if let Some(jump_type) = jump_type {
+                // HANDLE ERROR
+                let next_insn = next_insn.unwrap();
+
+                match jump_type {
+                    JumpKind::Call => {
+                        self.call_stack.push(insn.addr);
+
+                        self.add_function(next_insn.addr);
+
+                        self.current_function = next_insn.addr;
+                    }
+                    JumpKind::Return => {
+                        self.current_function = self.call_stack.pop().unwrap();
+                    }
+                    _ => {}
                 }
-                JumpKind::Return => {
-                    todo!()
-                }
-                _ => {}
             }
         }
-
         Ok(())
     }
 
-    /// Adds a function with the given start address, name is auto-generated.
-    fn add_function(&mut self, starting_address: u64) -> &mut Function {
+    pub fn to_graphs(&self) {}
+
+    /// Adds a function with the given start address if needed, name is auto-generated.
+    fn add_function(&mut self, starting_address: u64) {
         self.functions
             .entry(starting_address)
-            .or_insert(Function::new(starting_address))
+            .or_insert(Function::new(starting_address));
     }
 }

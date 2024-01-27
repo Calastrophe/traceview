@@ -1,3 +1,6 @@
+use crate::trace::{TraceFile, Tracer};
+use serde_json::from_str;
+
 use self::{file::FileDialog, graph::Graph};
 
 mod file;
@@ -6,6 +9,7 @@ mod graph;
 #[derive(Default)]
 pub struct TraceView {
     fd: FileDialog,
+    tracer: Option<Tracer>,
     graph: Option<Graph>,
 }
 
@@ -19,8 +23,11 @@ impl TraceView {
 
 impl eframe::App for TraceView {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
-        if let Some(image) = self.fd.get() {
-            self.graph = Some(Graph::new(ctx, image));
+        if let Some(trace) = self.fd.get() {
+            // HANDLE THIS ERROR
+            let trace: TraceFile = from_str(&String::from_utf8_lossy(&trace)).unwrap();
+
+            self.tracer = Some(Tracer::new(trace));
         }
 
         egui::TopBottomPanel::top("top").show(ctx, |ui| {
@@ -31,7 +38,7 @@ impl eframe::App for TraceView {
                         ctx.send_viewport_cmd(egui::ViewportCommand::Close);
                     }
 
-                    if ui.button("Open file").clicked() {
+                    if ui.button("Open trace").clicked() {
                         self.fd.open()
                     }
                 });
