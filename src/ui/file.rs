@@ -89,9 +89,9 @@ cfg_if::cfg_if! {
                 self.input.click();
             }
 
-            pub fn get(&self) -> Option<String> {
+            pub fn get(&self) -> Option<FileData> {
                 if let Ok(file) = self.rx.try_recv() {
-                    Some(String::from_utf8_lossy(&file).to_string())
+                    Some(file)
                 } else {
                     None
                 }
@@ -101,7 +101,7 @@ cfg_if::cfg_if! {
         use rfd;
 
         pub struct FileDialog {
-            file: Option<String>,
+            file: Option<FileData>,
         }
 
         impl Default for FileDialog {
@@ -114,11 +114,11 @@ cfg_if::cfg_if! {
             pub fn open(&mut self) {
                 let path = rfd::FileDialog::new().pick_file();
                 if let Some(path) = path {
-                    self.file = std::fs::read_to_string(path).ok()
+                    self.file = std::fs::read(path).ok()
                 }
             }
 
-            pub fn get(&mut self) -> Option<String> {
+            pub fn get(&mut self) -> Option<FileData> {
                 std::mem::replace(&mut self.file, None)
             }
         }
