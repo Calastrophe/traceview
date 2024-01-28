@@ -1,10 +1,10 @@
 use super::{Instruction, JumpKind};
-use std::collections::HashMap;
+use std::collections::BTreeMap;
 
 pub struct BasicBlock {
     pub(crate) start: u64,
     pub(crate) end: u64,
-    pub(crate) block: HashMap<u64, String>,
+    pub(crate) block: BTreeMap<u64, String>,
     // The first item indicates if it is Unconditional or Conditional, the second is the address,
     // the third is how many traverses
     edges: Vec<(JumpKind, u64, u64)>,
@@ -16,7 +16,7 @@ impl BasicBlock {
         BasicBlock {
             start,
             end: start,
-            block: HashMap::new(),
+            block: BTreeMap::new(),
             edges: Vec::new(),
         }
     }
@@ -30,6 +30,16 @@ impl BasicBlock {
         } else {
             self.end = insn.addr
         }
+    }
+
+    /// Get a string representation of the block.
+    pub fn to_string(&self) -> String {
+        let mut output = String::new();
+        for (address, instruction) in &self.block {
+            output.push_str(&format!("0x{address:X}\t{0}", instruction));
+            output.push_str("\\n");
+        }
+        output
     }
 
     /// Checks if the given address is **currently** in the range of this basic block.
@@ -57,7 +67,7 @@ impl BasicBlock {
         if let Some((_, _, count)) = self.edges.iter_mut().find(|(_, e, _)| *e == edge) {
             *count += 1;
         } else {
-            self.edges.push((kind, edge, 0));
+            self.edges.push((kind, edge, 1));
         }
     }
 }

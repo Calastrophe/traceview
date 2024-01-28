@@ -24,10 +24,9 @@ impl TraceView {
 impl eframe::App for TraceView {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         if let Some(trace) = self.fd.get() {
-            // HANDLE THIS ERROR
             let trace: TraceFile = from_str(&String::from_utf8_lossy(&trace)).unwrap();
 
-            self.tracer = Some(Tracer::new(trace));
+            self.tracer = Some(Tracer::new(trace).expect("failed to parse"));
         }
 
         egui::TopBottomPanel::top("top").show(ctx, |ui| {

@@ -1,49 +1,47 @@
+use crate::trace::{Error, GraphFile};
 use egui::{vec2, Context, Response, Ui};
 use egui_plot::{Legend, Plot, PlotImage, PlotPoint};
 use image::DynamicImage;
 use image::EncodableLayout;
-use std::io::Cursor;
 
 #[derive(Default)]
 pub struct Graph {
-    texture: Option<egui::TextureHandle>,
+    current_texture: usize,
+    textures: Vec<egui::TextureHandle>,
 }
 
 impl Graph {
-    pub fn new(ctx: &Context, bytes: Vec<u8>) -> Self {
-        // TODO: HANDLE THESE UNWRAPS
-        let image = image::io::Reader::new(Cursor::new(bytes))
-            .with_guessed_format()
-            .unwrap()
-            .decode()
-            .unwrap();
+    pub fn new(ctx: &Context, graphs: &Vec<GraphFile>) -> Result<Graph, Error> {
+        let mut textures = Vec::new();
 
-        let color_image = match &image {
-            DynamicImage::ImageRgb8(image) => egui::ColorImage::from_rgb(
-                [image.width() as usize, image.height() as usize],
-                image.as_bytes(),
-            ),
-            other => {
-                let image = other.to_rgba8();
-                egui::ColorImage::from_rgba_unmultiplied(
+        for graph in graphs {
+            let image = image::io::Reader::open(&graph.path)?.decode()?;
+
+            let color_image = match &image {
+                DynamicImage::ImageRgb8(image) => egui::ColorImage::from_rgb(
                     [image.width() as usize, image.height() as usize],
                     image.as_bytes(),
-                )
-            }
-        };
+                ),
+                other => {
+                    let image = other.to_rgba8();
+                    egui::ColorImage::from_rgba_unmultiplied(
+                        [image.width() as usize, image.height() as usize],
+                        image.as_bytes(),
+                    )
+                }
+            };
 
-        let texture = ctx.load_texture("graph", color_image, Default::default());
-
-        Self {
-            texture: Some(texture),
+            textures.push(ctx.load_texture("graph", color_image, Default::default()));
         }
+
+        Ok(Self {
+            current_texture: 0,
+            textures,
+        })
     }
 
     pub fn ui(&mut self, ui: &mut Ui) -> Response {
-        let texture = self.texture.get_or_insert_with(|| {
-            ui.ctx()
-                .load_texture("graph", egui::ColorImage::example(), Default::default())
-        });
+        let texture = &self.textures[self.current_texture];
 
         let aspect_ratio = texture.aspect_ratio();
 

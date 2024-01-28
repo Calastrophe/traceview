@@ -1,4 +1,4 @@
-use super::{function::Function, Error, Instruction, JumpKind};
+use super::{function::Function, Error, GraphFile, Instruction, JumpKind};
 use std::collections::HashMap;
 
 pub struct ControlFlowGraph {
@@ -50,10 +50,14 @@ impl ControlFlowGraph {
                 }
             }
         }
+
         Ok(())
     }
 
-    pub fn to_graphs(&self) {}
+    /// Generates the graphs of the control flow graph.
+    pub fn gen_graphs(&self) -> Result<Vec<GraphFile>, Error> {
+        self.functions.iter().map(|(_, func)| func.dot()).collect()
+    }
 
     /// Adds a function with the given start address if needed, name is auto-generated.
     fn add_function(&mut self, starting_address: u64) {

@@ -33,7 +33,7 @@ fn main() {
     wasm_bindgen_futures::spawn_local(async {
         eframe::WebRunner::new()
             .start(
-                "traceview", // hardcode it
+                "traceview",
                 web_options,
                 Box::new(|cc| Box::new(ui::TraceView::new(cc))),
             )

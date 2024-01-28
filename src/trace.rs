@@ -1,6 +1,6 @@
 use self::{cfg::ControlFlowGraph, register::Registers};
 use serde::Deserialize;
-use std::collections::HashMap;
+use std::collections::BTreeMap;
 use thiserror::Error;
 
 mod block;
@@ -8,28 +8,36 @@ mod cfg;
 mod function;
 mod register;
 
+pub struct GraphFile {
+    pub address: u64,
+    pub path: String,
+}
+
 pub struct Tracer {
     step: usize,
-    registers: Registers,
-    memory: HashMap<u64, u64>,
+    pub registers: Registers,
+    memory: BTreeMap<u64, u64>,
+    graphs: Vec<GraphFile>,
     instructions: Vec<Instruction>,
 }
 
 impl Tracer {
-    pub fn new(trace: TraceFile) -> Tracer {
+    pub fn new(trace: TraceFile) -> Result<Tracer, Error> {
         let registers = Registers::new(&trace.info.registers);
-        let memory: HashMap<u64, u64> = HashMap::from_iter(trace.info.memory.into_iter());
+        let memory: BTreeMap<u64, u64> = BTreeMap::from_iter(trace.info.memory.into_iter());
 
         let first = trace.instructions.first().unwrap();
         let mut graph = ControlFlowGraph::new(first.addr);
-        graph.construct(&trace.instructions).unwrap();
+        graph.construct(&trace.instructions)?;
+        let graphs = graph.gen_graphs()?;
 
-        Self {
+        Ok(Self {
             step: 0,
             registers,
             memory,
+            graphs,
             instructions: trace.instructions,
-        }
+        })
     }
 
     pub fn step_forward(&mut self) {}
@@ -94,8 +102,10 @@ pub enum Error {
     /// The current function is somehow missing from the underlying map.
     #[error("The current function does not exist inside the control flow graph.")]
     MissingCurrentFunction,
-    /// The program counter provided is inaccurate as it is executing backwards or behind where it
-    /// is expected.
-    #[error("There was an attempt to add an instruction behind the start of a basic block.")]
-    InvalidCounter,
+    #[error("There was a failure when writing to a file.")]
+    IO(#[from] std::io::Error),
+    #[error("Failed to grab another instruction when one was expected.")]
+    MissingInstruction,
+    #[error("There was an error loading an image.")]
+    Image(#[from] image::error::ImageError),
 }

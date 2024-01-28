@@ -1,25 +1,39 @@
+use std::collections::BTreeMap;
+
 use super::RegisterInfo;
 use byteorder::{ByteOrder, LittleEndian};
 
-pub struct Registers(Vec<Register>);
+pub struct Registers {
+    registers: Vec<Register>,
+    lookup: BTreeMap<usize, usize>,
+}
 
 impl Registers {
     pub fn new(info: &[RegisterInfo]) -> Self {
         let mut registers = Vec::new();
+        let mut lookup = BTreeMap::new();
 
+        // Create the register array and construct the lookup table.
         for register in info {
-            registers.push(Register::new(register.name.clone(), register.size as usize))
+            if let Some(reg) = register.full_register {
+                lookup.insert(register.register as usize, reg as usize);
+            } else {
+                registers.push(Register::new(register.name.clone(), register.size as usize))
+            }
         }
 
-        Registers(registers)
+        Registers { registers, lookup }
     }
 
     pub fn write(&mut self, idx: usize, value: Box<[u8]>) {
-        self.0[idx].write(value)
+        // Use the lookup to see if this is an aliased register.
+        let idx = self.lookup.entry(idx).or_insert(idx);
+
+        self.registers[*idx].write(value)
     }
 
     pub fn iter(&self) -> impl Iterator<Item = &Register> {
-        self.0.iter()
+        self.registers.iter()
     }
 }
 
@@ -30,12 +44,9 @@ pub struct Register {
 
 impl Register {
     pub fn new(name: String, size: usize) -> Self {
-        let mut value: Vec<u8> = Vec::new();
-        (0..size).into_iter().for_each(|_| value.push(0u8));
-
         Self {
             name,
-            value: value.into_boxed_slice(),
+            value: vec![0u8; size].into_boxed_slice(),
         }
     }
 
