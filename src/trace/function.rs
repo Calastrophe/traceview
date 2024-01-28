@@ -48,8 +48,7 @@ impl Function {
         let jump_type = &insn.kind;
 
         if let Some(jump_type) = jump_type {
-            // HANDLE ERROR
-            let next_insn = next_insn.unwrap();
+            let next_insn = next_insn.ok_or_else(|| Error::MissingInstruction)?;
 
             match jump_type {
                 JumpKind::Conditional | JumpKind::Unconditional => {

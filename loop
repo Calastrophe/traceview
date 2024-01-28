@@ -1,0 +1,11306 @@
+{
+"info": {
+  "registers": [
+    {
+      "name": "S",
+      "register": 0,
+      "full_register": null,
+      "size": 1
+    },
+    {
+      "name": "Z",
+      "register": 1,
+      "full_register": null,
+      "size": 1
+    },
+    {
+      "name": "IR",
+      "register": 2,
+      "full_register": null,
+      "size": 4
+    },
+    {
+      "name": "AR",
+      "register": 3,
+      "full_register": null,
+      "size": 4
+    },
+    {
+      "name": "DR",
+      "register": 4,
+      "full_register": null,
+      "size": 4
+    },
+    {
+      "name": "PC",
+      "register": 5,
+      "full_register": null,
+      "size": 4
+    },
+    {
+      "name": "OUTR",
+      "register": 6,
+      "full_register": null,
+      "size": 4
+    },
+    {
+      "name": "ACC",
+      "register": 7,
+      "full_register": null,
+      "size": 4
+    },
+    {
+      "name": "R",
+      "register": 8,
+      "full_register": null,
+      "size": 4
+    }
+  ],
+  "memory": [
+    [
+      6,
+      0
+    ],
+    [
+      66,
+      75
+    ],
+    [
+      26,
+      6
+    ],
+    [
+      164,
+      165
+    ],
+    [
+      142,
+      10
+    ],
+    [
+      144,
+      145
+    ],
+    [
+      82,
+      8
+    ],
+    [
+      127,
+      6
+    ],
+    [
+      29,
+      1
+    ],
+    [
+      161,
+      10
+    ],
+    [
+      134,
+      1
+    ],
+    [
+      141,
+      8
+    ],
+    [
+      35,
+      15
+    ],
+    [
+      34,
+      3
+    ],
+    [
+      61,
+      48
+    ],
+    [
+      155,
+      10
+    ],
+    [
+      113,
+      10
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      28,
+      10
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      53,
+      1
+    ],
+    [
+      69,
+      16
+    ],
+    [
+      80,
+      6
+    ],
+    [
+      158,
+      7
+    ],
+    [
+      165,
+      10
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      168,
+      7
+    ],
+    [
+      91,
+      5
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      25,
+      11
+    ],
+    [
+      50,
+      1
+    ],
+    [
+      43,
+      9
+    ],
+    [
+      62,
+      1
+    ],
+    [
+      115,
+      1
+    ],
+    [
+      156,
+      2
+    ],
+    [
+      167,
+      1
+    ],
+    [
+      120,
+      12
+    ],
+    [
+      12,
+      8
+    ],
+    [
+      67,
+      10
+    ],
+    [
+      121,
+      17
+    ],
+    [
+      159,
+      1
+    ],
+    [
+      31,
+      10
+    ],
+    [
+      140,
+      6
+    ],
+    [
+      143,
+      5
+    ],
+    [
+      77,
+      10
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      38,
+      4
+    ],
+    [
+      75,
+      1
+    ],
+    [
+      104,
+      10
+    ],
+    [
+      24,
+      10
+    ],
+    [
+      71,
+      4
+    ],
+    [
+      100,
+      15
+    ],
+    [
+      128,
+      11
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      138,
+      3
+    ],
+    [
+      124,
+      10
+    ],
+    [
+      148,
+      4
+    ],
+    [
+      151,
+      15
+    ],
+    [
+      14,
+      8
+    ],
+    [
+      163,
+      5
+    ],
+    [
+      169,
+      10
+    ],
+    [
+      145,
+      10
+    ],
+    [
+      81,
+      10
+    ],
+    [
+      90,
+      11
+    ],
+    [
+      171,
+      10
+    ],
+    [
+      172,
+      12
+    ],
+    [
+      85,
+      10
+    ],
+    [
+      59,
+      62
+    ],
+    [
+      162,
+      15
+    ],
+    [
+      72,
+      13
+    ],
+    [
+      119,
+      10
+    ],
+    [
+      30,
+      2
+    ],
+    [
+      125,
+      3
+    ],
+    [
+      137,
+      2
+    ],
+    [
+      117,
+      10
+    ],
+    [
+      65,
+      16
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      18,
+      2
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      20,
+      9
+    ],
+    [
+      95,
+      2
+    ],
+    [
+      79,
+      1
+    ],
+    [
+      22,
+      10
+    ],
+    [
+      154,
+      4
+    ],
+    [
+      108,
+      8
+    ],
+    [
+      32,
+      4
+    ],
+    [
+      114,
+      14
+    ],
+    [
+      39,
+      10
+    ],
+    [
+      17,
+      10
+    ],
+    [
+      86,
+      2
+    ],
+    [
+      94,
+      1
+    ],
+    [
+      87,
+      7
+    ],
+    [
+      23,
+      8
+    ],
+    [
+      74,
+      0
+    ],
+    [
+      15,
+      5
+    ],
+    [
+      42,
+      7
+    ],
+    [
+      135,
+      3
+    ],
+    [
+      136,
+      9
+    ],
+    [
+      139,
+      1
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      48,
+      10
+    ],
+    [
+      57,
+      5
+    ],
+    [
+      93,
+      10
+    ],
+    [
+      149,
+      10
+    ],
+    [
+      49,
+      14
+    ],
+    [
+      147,
+      7
+    ],
+    [
+      19,
+      6
+    ],
+    [
+      51,
+      4
+    ],
+    [
+      68,
+      10
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      118,
+      11
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      21,
+      10
+    ],
+    [
+      41,
+      6
+    ],
+    [
+      173,
+      17
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      56,
+      2
+    ],
+    [
+      33,
+      10
+    ],
+    [
+      60,
+      5
+    ],
+    [
+      78,
+      3
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      89,
+      10
+    ],
+    [
+      52,
+      3
+    ],
+    [
+      46,
+      5
+    ],
+    [
+      54,
+      5
+    ],
+    [
+      106,
+      6
+    ],
+    [
+      96,
+      10
+    ],
+    [
+      76,
+      2
+    ],
+    [
+      111,
+      5
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      103,
+      4
+    ],
+    [
+      44,
+      10
+    ],
+    [
+      146,
+      2
+    ],
+    [
+      157,
+      6
+    ],
+    [
+      73,
+      11
+    ],
+    [
+      64,
+      10
+    ],
+    [
+      170,
+      11
+    ],
+    [
+      36,
+      5
+    ],
+    [
+      40,
+      2
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      107,
+      7
+    ],
+    [
+      126,
+      1
+    ],
+    [
+      70,
+      122
+    ],
+    [
+      13,
+      10
+    ],
+    [
+      45,
+      15
+    ],
+    [
+      130,
+      3
+    ],
+    [
+      105,
+      2
+    ],
+    [
+      160,
+      3
+    ],
+    [
+      131,
+      10
+    ],
+    [
+      83,
+      5
+    ],
+    [
+      101,
+      5
+    ],
+    [
+      109,
+      10
+    ],
+    [
+      110,
+      15
+    ],
+    [
+      55,
+      8
+    ],
+    [
+      84,
+      85
+    ],
+    [
+      152,
+      5
+    ],
+    [
+      5,
+      16
+    ],
+    [
+      11,
+      9
+    ],
+    [
+      88,
+      8
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      132,
+      5
+    ],
+    [
+      123,
+      2
+    ],
+    [
+      58,
+      6
+    ],
+    [
+      63,
+      2
+    ],
+    [
+      116,
+      7
+    ],
+    [
+      150,
+      3
+    ],
+    [
+      153,
+      154
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      97,
+      4
+    ],
+    [
+      122,
+      1
+    ],
+    [
+      166,
+      14
+    ],
+    [
+      129,
+      2
+    ],
+    [
+      98,
+      10
+    ],
+    [
+      99,
+      3
+    ]
+  ]
+},
+"instructions": [
+{
+  "addr": 0,
+  "insn": "JMP   8",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 1
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          8,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          8,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 8,
+  "insn": "LDAC   2",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 9
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          10,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 2
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 10,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 11,
+  "insn": "ADD",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 12,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 13,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 14,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 15,
+  "insn": "JMP   17",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 16
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          17,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          17,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 17,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 18,
+  "insn": "STAC   6",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 19
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          20,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        6,
+        3
+      ]
+    }
+  ]
+},
+{
+  "addr": 20,
+  "insn": "ADD",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 21,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 22,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 23,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 24,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 25,
+  "insn": "CLAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 26,
+  "insn": "JMPZ   28",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 27
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          28,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          28,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 28,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 29,
+  "insn": "LDAC   2",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 30
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          31,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 2
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 31,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 32,
+  "insn": "MOVR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 33,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 34,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 35,
+  "insn": "NOT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          254,
+          255,
+          255,
+          255
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 36,
+  "insn": "JMP   38",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 37
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          38,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          38,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 38,
+  "insn": "MOVR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 39,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 40,
+  "insn": "STAC   6",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 41
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          42,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        6,
+        2
+      ]
+    }
+  ]
+},
+{
+  "addr": 42,
+  "insn": "OUT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        6,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 43,
+  "insn": "ADD",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 44,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 45,
+  "insn": "NOT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          251,
+          255,
+          255,
+          255
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 46,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 47
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          252,
+          255,
+          255,
+          255
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          254,
+          255,
+          255,
+          127
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          16,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          16,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          15,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          15,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        15
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          16,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          8,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          15,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          15,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          14,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          14,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        14
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          15,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          14,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          14,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          13,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          13,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        13
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          14,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          13,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          13,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          12,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          12,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        12
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          13,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          12,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          12,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          11,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          11,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        11
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          12,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          11,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          11,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          10,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          10,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        10
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          11,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          10,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          10,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          9,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          9,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        9
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          10,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          9,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          9,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          8,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          8,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        8
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          9,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          8,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          8,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        7
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          8,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        6
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        5
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        4
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        3
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        2
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        1
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          60,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 60,
+  "insn": "JMP   48",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 61
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          48,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 48,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 49,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 50,
+  "insn": "LDAC   4",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 51
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          52,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 4
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 52,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 53,
+  "insn": "LDAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 54
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          55,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 5
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 55,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 56,
+  "insn": "STAC   5",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 57
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          58,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        5,
+        0
+      ]
+    }
+  ]
+},
+{
+  "addr": 58,
+  "insn": "JMPZ   62",
+  "size": 8,
+  "kind": "Conditional",
+  "events": [
+    {
+      "RegRead": 1
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 59
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          62,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          62,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 62,
+  "insn": "LDAC   2",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 63
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          64,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 2
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 64,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 65,
+  "insn": "CALL   75",
+  "size": 8,
+  "kind": "Call",
+  "events": [
+    {
+      "RegRead": 5
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 66
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          75,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          75,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 75,
+  "insn": "LDAC   2",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 76
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          77,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 2
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 77,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 78,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 79,
+  "insn": "LDAC   6",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 80
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          81,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 6
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 81,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 82,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 83,
+  "insn": "JMP   85",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 84
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          85,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          85,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 85,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 86,
+  "insn": "STAC   7",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 87
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          88,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        7,
+        3
+      ]
+    }
+  ]
+},
+{
+  "addr": 88,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 89,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 90,
+  "insn": "CLAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 91,
+  "insn": "JMP   93",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 92
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          93,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          93,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 93,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 94,
+  "insn": "LDAC   2",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 95
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          96,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 2
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 96,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 97,
+  "insn": "MOVR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 98,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 99,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 100,
+  "insn": "NOT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          253,
+          255,
+          255,
+          255
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 101,
+  "insn": "JMP   103",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 102
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          103,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          103,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 103,
+  "insn": "MOVR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 104,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 105,
+  "insn": "STAC   6",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 106
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          107,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        6,
+        3
+      ]
+    }
+  ]
+},
+{
+  "addr": 107,
+  "insn": "OUT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        6,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 108,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 109,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 110,
+  "insn": "NOT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          253,
+          255,
+          255,
+          255
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 111,
+  "insn": "JMP   113",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 112
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          113,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          113,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 113,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          254,
+          255,
+          255,
+          255
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 114,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          255,
+          255,
+          255,
+          127
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 115,
+  "insn": "LDAC   7",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 116
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          117,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 117,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 118,
+  "insn": "CLAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 119,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 120,
+  "insn": "AND",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 121,
+  "insn": "RET",
+  "size": null,
+  "kind": "Return",
+  "events": [
+    {
+      "RegWrite": [
+        5,
+        [
+          67,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 67,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 68,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 69,
+  "insn": "CALL   122",
+  "size": 8,
+  "kind": "Call",
+  "events": [
+    {
+      "RegRead": 5
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 70
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          122,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          122,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 122,
+  "insn": "LDAC   2",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 123
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          124,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 2
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 124,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 125,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 126,
+  "insn": "LDAC   6",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 127
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          128,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 6
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 128,
+  "insn": "CLAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 129,
+  "insn": "STAC   3",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 130
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          131,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        3,
+        0
+      ]
+    }
+  ]
+},
+{
+  "addr": 131,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 132,
+  "insn": "JMP   134",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 133
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          134,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          134,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 134,
+  "insn": "LDAC   3",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 135
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          136,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 3
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 136,
+  "insn": "ADD",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 137,
+  "insn": "STAC   3",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 138
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          139,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        3,
+        1
+      ]
+    }
+  ]
+},
+{
+  "addr": 139,
+  "insn": "LDAC   6",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 140
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          141,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 6
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 141,
+  "insn": "SUB",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 142,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 143,
+  "insn": "JMP   145",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 144
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          145,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          145,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 145,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 146,
+  "insn": "STAC   7",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 147
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          148,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        7,
+        4
+      ]
+    }
+  ]
+},
+{
+  "addr": 148,
+  "insn": "MOVR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 149,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 150,
+  "insn": "MVAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        8,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 151,
+  "insn": "NOT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          253,
+          255,
+          255,
+          255
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 152,
+  "insn": "JMP   154",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 153
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          154,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          154,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 154,
+  "insn": "MOVR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 155,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 156,
+  "insn": "STAC   6",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 157
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          158,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          6,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "MemWrite": [
+        6,
+        3
+      ]
+    }
+  ]
+},
+{
+  "addr": 158,
+  "insn": "OUT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        6,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 159,
+  "insn": "LDAC   3",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 160
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          161,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 3
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 161,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 162,
+  "insn": "NOT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          253,
+          255,
+          255,
+          255
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 163,
+  "insn": "JMP   165",
+  "size": 8,
+  "kind": "Unconditional",
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 164
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          165,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          165,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 165,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          254,
+          255,
+          255,
+          255
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 166,
+  "insn": "ASHR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          255,
+          255,
+          255,
+          127
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 167,
+  "insn": "LDAC   7",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 168
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 5
+    },
+    {
+      "RegWrite": [
+        5,
+        [
+          169,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        3,
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 3
+    },
+    {
+      "MemRead": 7
+    },
+    {
+      "RegWrite": [
+        4,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "RegRead": 4
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 169,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          5,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 170,
+  "insn": "CLAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 171,
+  "insn": "INC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 172,
+  "insn": "AND",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 173,
+  "insn": "RET",
+  "size": null,
+  "kind": "Return",
+  "events": [
+    {
+      "RegWrite": [
+        5,
+        [
+          71,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 71,
+  "insn": "MOVR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 72,
+  "insn": "OR",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegRead": 7
+    },
+    {
+      "RegRead": 8
+    },
+    {
+      "RegWrite": [
+        7,
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 73,
+  "insn": "CLAC",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegWrite": [
+        7,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+},
+{
+  "addr": 74,
+  "insn": "HALT",
+  "size": null,
+  "kind": null,
+  "events": [
+    {
+      "RegWrite": [
+        0,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+}]
+}
