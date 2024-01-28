@@ -1,5 +1,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")] // hide console window on Windows in release
 
+use eframe::egui::{Style, Visuals};
+
 mod trace;
 mod ui;
 
@@ -18,7 +20,19 @@ fn main() -> eframe::Result<()> {
     eframe::run_native(
         "traceview",
         native_options,
-        Box::new(|cc| Box::new(ui::TraceView::new(cc))),
+        Box::new(|cc| {
+            let style = Style {
+                visuals: Visuals::light(),
+                override_font_id: Some(egui::FontId {
+                    size: 20.0,
+                    family: egui::FontFamily::default(),
+                }),
+                ..Style::default()
+            };
+            cc.egui_ctx.set_style(style);
+
+            Box::new(ui::TraceView::new(cc))
+        }),
     )
 }
 

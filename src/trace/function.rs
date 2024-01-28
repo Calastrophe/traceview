@@ -2,6 +2,7 @@ use super::{block::BasicBlock, Error, GraphFile, Instruction, JumpKind};
 use std::collections::BTreeMap;
 use std::fs::File;
 use std::io::Write;
+use std::process::Command;
 
 pub struct Function {
     /// The name of the function which follows a `sub_[address]` format with a given starting
@@ -68,7 +69,8 @@ impl Function {
     }
 
     pub fn dot(&self) -> Result<GraphFile, Error> {
-        let mut fd = File::create(format!("/tmp/graph_{0}", self.start))?;
+        let filename = format!("/tmp/graph_{0}", self.start);
+        let mut fd = File::create(&filename)?;
 
         fd.write(b"digraph {\n")?;
 
@@ -103,9 +105,21 @@ impl Function {
 
         fd.write(b"}")?;
 
+        let out = format!("/tmp/graph_{0}.jpeg", self.start);
+
+        Command::new("dot")
+            .arg("-Tjpg")
+            .arg("-Gdpi=300")
+            .arg(&filename)
+            .arg("-o")
+            .arg(&out)
+            .spawn()
+            .expect("failed to create graph");
+
         Ok(GraphFile {
             address: self.start,
-            path: format!("/tmp/graph_{0}", self.start),
+            name: self.name.clone(),
+            path: out,
         })
     }
 }

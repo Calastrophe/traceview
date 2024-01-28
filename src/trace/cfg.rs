@@ -37,7 +37,7 @@ impl ControlFlowGraph {
 
                 match jump_type {
                     JumpKind::Call => {
-                        self.call_stack.push(insn.addr);
+                        self.call_stack.push(current_function.start);
 
                         self.add_function(next_insn.addr);
 

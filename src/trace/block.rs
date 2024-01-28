@@ -36,7 +36,7 @@ impl BasicBlock {
     pub fn to_string(&self) -> String {
         let mut output = String::new();
         for (address, instruction) in &self.block {
-            output.push_str(&format!("0x{address:X}\t{0}", instruction));
+            output.push_str(&format!("0x{address:0>4X}\t{0}", instruction));
             output.push_str("\\n");
         }
         output

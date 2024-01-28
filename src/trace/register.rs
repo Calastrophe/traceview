@@ -54,18 +54,18 @@ impl Register {
         self.value
             .iter_mut()
             .enumerate()
-            .for_each(|(i, v)| *v &= value[i])
+            .for_each(|(i, v)| *v = value[i])
     }
 
     pub fn to_string(&self) -> String {
         let value = match self.value.len() {
-            1 => self.value[0].to_string(),
-            2 => LittleEndian::read_u16(&self.value).to_string(),
-            3 => LittleEndian::read_u24(&self.value).to_string(),
-            4 => LittleEndian::read_u32(&self.value).to_string(),
-            6 => LittleEndian::read_u48(&self.value).to_string(),
-            8 => LittleEndian::read_u64(&self.value).to_string(),
-            16 => LittleEndian::read_u128(&self.value).to_string(),
+            1 => format!("{:X}", self.value[0]),
+            2 => format!("{:0>2X}", LittleEndian::read_u16(&self.value)),
+            3 => format!("{:0>3X}", LittleEndian::read_u24(&self.value)),
+            4 => format!("{:0>4X}", LittleEndian::read_u32(&self.value)),
+            6 => format!("{:0>6X}", LittleEndian::read_u48(&self.value)),
+            8 => format!("{:0>8X}", LittleEndian::read_u64(&self.value)),
+            16 => format!("{:0>16X}", LittleEndian::read_u128(&self.value)),
             _ => panic!("Unsupported register size, unimplemented!"),
         };
 

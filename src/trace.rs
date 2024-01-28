@@ -10,15 +10,16 @@ mod register;
 
 pub struct GraphFile {
     pub address: u64,
+    pub name: String,
     pub path: String,
 }
 
 pub struct Tracer {
-    step: usize,
+    pub step: usize,
     pub registers: Registers,
-    memory: BTreeMap<u64, u64>,
-    graphs: Vec<GraphFile>,
-    instructions: Vec<Instruction>,
+    pub memory: BTreeMap<u64, u64>,
+    pub graphs: Vec<GraphFile>,
+    pub instructions: Vec<Instruction>,
 }
 
 impl Tracer {
@@ -40,9 +41,53 @@ impl Tracer {
         })
     }
 
-    pub fn step_forward(&mut self) {}
+    pub fn step_forward(&mut self) {
+        let events = &self.instructions[self.step].events;
 
-    pub fn step_backward(&mut self) {}
+        for event in events {
+            match event {
+                Event::RegWrite(reg, val) => {
+                    self.registers.write(*reg as usize, val.clone());
+                }
+                Event::MemWrite(addr, val) => {
+                    self.memory
+                        .entry(*addr)
+                        .and_modify(|v| *v = *val)
+                        .or_insert(*val);
+                }
+                _ => {}
+            }
+        }
+
+        if self.step < self.instructions.len() {
+            self.step += 1;
+        }
+    }
+
+    pub fn step_backward(&mut self) {
+        if self.step < 1 {
+            return;
+        }
+
+        let events = &self.instructions[self.step].events;
+
+        for event in events.iter().rev() {
+            match event {
+                Event::RegWrite(reg, val) => {
+                    self.registers.write(*reg as usize, val.clone());
+                }
+                Event::MemWrite(addr, val) => {
+                    self.memory
+                        .entry(*addr)
+                        .and_modify(|v| *v = *val)
+                        .or_insert(*val);
+                }
+                _ => {}
+            }
+        }
+
+        self.step -= 1;
+    }
 }
 
 #[derive(Deserialize)]
@@ -65,16 +110,16 @@ pub struct RegisterInfo {
     size: u16,
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Debug)]
 pub struct Instruction {
     addr: u64,
-    insn: String,
+    pub insn: String,
     size: Option<u16>,
     kind: Option<JumpKind>,
     events: Vec<Event>,
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Debug)]
 pub enum Event {
     RegRead(u32),
     RegWrite(u32, Box<[u8]>),
@@ -82,7 +127,7 @@ pub enum Event {
     MemWrite(u64, u64),
 }
 
-#[derive(Deserialize, Clone, Copy)]
+#[derive(Deserialize, Debug, Clone, Copy)]
 pub enum JumpKind {
     Call,
     Return,

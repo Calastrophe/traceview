@@ -1,3 +1,5 @@
+use std::time::Duration;
+
 use crate::trace::{Error, GraphFile};
 use egui::{vec2, Context, Response, Ui};
 use egui_plot::{Legend, Plot, PlotImage, PlotPoint};
@@ -13,6 +15,8 @@ pub struct Graph {
 impl Graph {
     pub fn new(ctx: &Context, graphs: &Vec<GraphFile>) -> Result<Graph, Error> {
         let mut textures = Vec::new();
+
+        std::thread::sleep(Duration::from_secs(1));
 
         for graph in graphs {
             let image = image::io::Reader::open(&graph.path)?.decode()?;
@@ -31,13 +35,23 @@ impl Graph {
                 }
             };
 
-            textures.push(ctx.load_texture("graph", color_image, Default::default()));
+            textures.push(ctx.load_texture(&graph.name, color_image, Default::default()));
         }
 
         Ok(Self {
             current_texture: 0,
             textures,
         })
+    }
+
+    pub fn set_texture(&mut self, name: &str) {
+        let idx = self
+            .textures
+            .iter()
+            .position(|tx| tx.name() == name)
+            .unwrap();
+
+        self.current_texture = idx;
     }
 
     pub fn ui(&mut self, ui: &mut Ui) -> Response {
@@ -51,8 +65,9 @@ impl Graph {
             .legend(Legend::default())
             .show_x(false)
             .show_y(false)
-            .data_aspect(0.5)
-            .show_grid(false);
+            .data_aspect(1.0)
+            .show_grid(false)
+            .show_axes(false);
 
         plot.show(ui, |plot_ui| plot_ui.image(image.name("graph")))
             .response
